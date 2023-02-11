@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
-
 </head>
 <body>
     <header class="p-3 text-bg-dark">
@@ -29,13 +28,36 @@
               <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
             </form>
     
-            <div class="text-end">
-                <a href="login.html" aria-current="page" type="button" class="btn btn-outline-light me-2">Login</a>
-              <a href="signup.html" aria-current="page" type="button" class="btn btn-warning">Sign-up</a>
+            <div class="dropdown text-end">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Login
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li><a class="dropdown-item" href="signup.html">Sign up</a></li>    
+              </ul>
             </div>
           </div>
         </div>
     </header>
+
+    <div class="main content">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="image/ps5-2.png" class="d-block mx-lg-auto img-fluid" alt="ps5 image" width="1080" height="900" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">2nd Hand Games at Good Quality But Low Prices</h1>
+            <p class="lead">Avail our 2nd hand games at brandnew condition at an affodarble price. Have discount for 2 or more purchases. We also do shipping so that you dont need to go out. Play triple "A" games and new releases at low prices.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="gamelist.html" aria-current="page" type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="28ge67">See List</a>
+              <a href="signup.html"aria-current="page" type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="pg1b2">Register Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
 
     <script src="bootstrap/js/bootstrap.min.js"></script>
