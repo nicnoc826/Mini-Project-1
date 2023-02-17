@@ -10,40 +10,34 @@
 
 </head>
 <body>
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Login
-        </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="login.html">Login</a></li>
-            <li><a class="dropdown-item" href="signup.html">Sign up</a></li>    
-        </ul>
-    </div>
-    
-
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Dropdown button
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-      </div>
-
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Dropdown button
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-      </div>
-
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+  <div class="container-fluid d-flex bg-dark text-white text-center">
+    <main class="form-signin w-100 mx-auto">
+      <form>
+        <img class="mt-4 mb-4" src="image/nicnoc.jpg" alt="logo" width="100" height="80">
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+       
+        <div class="form-floating text-dark col-sm-4 mx-auto mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" fdprocessedid="e2v0qi">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating text-dark col-sm-4 mx-auto">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password" fdprocessedid="c4v0vo">
+          <label for="floatingPassword">Password</label>
+        </div>
+        
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <a class="btn btn-lg btn-primary" type="submit" fdprocessedid="ke7jj8" href="index.html">Sign in</a>
+        <p class="mt-5 mb-3 text-muted">© 2023</p>
+      </form>
+    </main>
+  </div>
+  
+      
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
         
 </body>
 </html>
